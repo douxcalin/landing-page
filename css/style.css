@@ -101,3 +101,38 @@ button {
     align-items: center;
     padding-bottom: 60px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 10rem 65px 10rem 65px;
+}
+
+.quote-text {
+    font-family: ;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+
+.quote-person {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-left: 30rem;
+    padding-top: 5px;
+}
+
+.signUpContainer {
+    padding: 10rem 65px 10rem 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #3882f6;
+    padding: 3rem 50px 3rem 50px;
+    width: 80rem;
+}
