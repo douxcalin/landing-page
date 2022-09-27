@@ -71,3 +71,33 @@ button {
 .container {
     padding:
 }
+
+.info-one, .info-two, .info-three, .info-four {
+    border-radius:10%;
+    border: 3px solid #3882f6;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.info {
+    padding: 70px 30rem 70px 30rem;
+}
+
+#info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
