@@ -40,19 +40,24 @@ a {
 
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
+    padding: 10rem 65px 10rem 65px;
+    flex-direction: row-reverse;
+    gap: 0px;
 }
 
 .main-text {
     color: #F9FAF8;;
     font-size: 48px;
     font-weight: bold;
+    padding: 5px 0px 5px 0px;
 }
 
 .secondary-text {
     color: #E5E7EB;
     font-size: 18px;
+    padding: 1px 0px 5px 0px;
 }
 
 button {
@@ -61,4 +66,8 @@ button {
     font-size: 18px;
     padding: 10px 24px;
     border: 0px;
+}
+
+.container {
+    padding:
 }
