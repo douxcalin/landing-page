@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     font-family: 'Inter Tight', sans-serif;
 }
@@ -131,8 +131,46 @@ button {
     justify-content: center;
 }
 
+#message {
+    padding: 0px 50px 0px 50px;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
 .modal {
+    height: 100px;
+    width: 1200px;
     background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
     padding: 3rem 50px 3rem 50px;
-    width: 80rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.curved {
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 24px;
+    border: 3px solid #E5E7EB;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.space {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: 400;
+    padding: 30px 30px;
+    text-align: center;
 }
