@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #2B4C59;
     display: flex;
     justify-content: space-between;
     padding: 10px 10rem 10px 10rem;
@@ -13,7 +13,7 @@
 }
 
 .logo-text {
-    color: #F9FAF8;
+    color: #BECEDA;
     font-size: 24px;
     font-weight: bolder;
 }
@@ -35,37 +35,41 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #BECEDA;
 }
 
 .intro {
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
+    background-color: #2B4C59;
     padding: 10rem 65px 10rem 65px;
     flex-direction: row-reverse;
     gap: 0px;
 }
 
 .main-text {
-    color: #F9FAF8;;
+    color: #BECEDA;
     font-size: 48px;
     font-weight: bold;
     padding: 5px 0px 5px 0px;
 }
 
 .secondary-text {
-    color: #E5E7EB;
+    color: #BECEDA;
     font-size: 18px;
     padding: 1px 0px 5px 0px;
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #FCDCDC;
     border-radius: 5px;
     font-size: 18px;
     padding: 10px 24px;
     border: 0px;
+    height: 50px;
+    width: 150px;
+    font-weight: 500;
+    color: #2B4C59;
 }
 
 .container {
@@ -74,7 +78,7 @@ button {
 
 .info-one, .info-two, .info-three, .info-four {
     border-radius:10%;
-    border: 3px solid #3882f6;
+    border: 3px solid #988080;
 }
 
 .info-header {
@@ -103,20 +107,19 @@ button {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #FCDCDC;
     padding: 10rem 65px 10rem 65px;
 }
 
 .quote-text {
-    font-family: ;
-    color: #1F2937;
+    color: #988080;
     font-style: italic;
     font-size: 36px;
     text-align: center;
 }
 
 .quote-person {
-    color: #1F2937;
+    color: #988080;
     font-size: 24px;
     font-weight: bold;
     display: flex;
@@ -135,12 +138,13 @@ button {
     padding: 0px 50px 0px 50px;
     flex-direction: column;
     padding-bottom: 10px;
+    color: #2B4C59;
 }
 
 .modal {
     height: 100px;
     width: 1200px;
-    background-color: #3882f6;
+    background-color: #BECEDA;
     display: flex;
     border-radius: 10px;
     padding: 3rem 50px 3rem 50px;
@@ -149,15 +153,15 @@ button {
 }
 
 .curved {
-    background-color: #3882f6;
+    background-color: #BECEDA;
     border-radius: 5px;
     font-size: 18px;
     padding: 10px 24px;
-    border: 3px solid #E5E7EB;
+    border: 3px solid #2B4C59;
     height: 50px;
     width: 150px;
     text-align: center;
-    color: #E5E7EB;
+    color: #2B4C59;
     font-weight: bold;
 }
 
@@ -165,10 +169,11 @@ button {
     padding: 0px 50px 0px 50px;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #2B4C59;
     color: #E5E7EB;
     font-weight: 400;
     padding: 30px 30px;
