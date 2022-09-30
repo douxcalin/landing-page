@@ -7,7 +7,7 @@
     background-color: #2D2D2D;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10rem 10px 10rem;
+    padding: 10px 13.7rem 10px 13.7rem;
     margin: 0px;
     border: 0px;
 }
@@ -78,7 +78,7 @@ button {
 
 .info-one, .info-two, .info-three, .info-four {
     border-radius:10%;
-    border: 3px solid #FBAFDA;
+    border: 3px solid #FBC3E4;
 }
 
 .info-header {
@@ -116,6 +116,7 @@ button {
     font-style: italic;
     font-size: 36px;
     text-align: center;
+    padding: 0px 13.7rem 0px 13.7rem;
 }
 
 .quote-person {
@@ -187,4 +188,8 @@ button {
 
 #inf {
     color: #808080;
+}
+
+.intro-pic {
+    border-radius: 3%;
 }
